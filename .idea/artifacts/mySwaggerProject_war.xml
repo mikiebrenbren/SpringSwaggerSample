@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mySwaggerProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="swagger-java-jersey-spring-app_2.10-1.3.12.war">
+      <element id="artifact" artifact-name="mySwaggerProject:war exploded" />
+    </root>
+  </artifact>
+</component>
