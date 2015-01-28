@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Swagger Sample App
 
 ## Overview
@@ -27,3 +28,7 @@ The sample app has an implementation of the Swagger ApiAuthorizationFilter.  Thi
 <li>- special-key</li>
 
 When no key is applied, the "default-key" is applied to all operations.  If the "special-key" is entered, a number of other resources are shown in the UI, including sample CRUD operations.  Note this behavior is similar to that on http://developer.wordnik.com/docs but the behavior is entirely up to the implementor.
+=======
+# SpringSwaggerSample
+"Forked" sample from swagger-core...I added a few classes changed some stuff around and overall did some tinkering.  
+>>>>>>> bce6472c71734454773d31d8262150ac9d5d9fab
