@@ -1,25 +1,22 @@
 package com.wordnik.swagger.sample.model;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by michael.brennan on 1/28/15.
  */
+
+@XmlRootElement(name = "Location")
+
 public class Location {
 
     private String city;
     private String state;
     private String zip;
     private String country;
-
-    public Location(Map m){
-
-        city = (String) m.get("city");
-        state = (String) m.get("state");
-        zip = (String) m.get("zip");
-        country = (String) m.get("country");
-    }
 
     @XmlElement(name = "city")
     public String getCity() {

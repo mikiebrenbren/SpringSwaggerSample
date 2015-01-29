@@ -13,11 +13,14 @@ com/wordnik/swagger/sample/bean/JavaRestResourceUtil.class
 com/wordnik/swagger/sample/model/User.class
 com/wordnik/swagger/sample/util/ApiOriginFilter.class
 com/wordnik/swagger/sample/bean/HipsterResourceBean.class
+com/wordnik/swagger/sample/model/Location.class
 com/wordnik/swagger/sample/resource/PetStoreResource.class
 com/wordnik/swagger/sample/model/Hipster.class
+com/wordnik/swagger/sample/data/LocationData.class
 com/wordnik/swagger/sample/util/ApiAuthorizationFilterImpl.class
 com/wordnik/swagger/sample/bean/UserResourceBean.class
 com/wordnik/swagger/sample/exception/BadRequestException.class
+com/wordnik/swagger/sample/resource/LocationResource.class
 com/wordnik/swagger/sample/bean/SampleExceptionMapper.class
 com/wordnik/swagger/sample/model/Category.class
 com/wordnik/swagger/sample/Bootstrap.class
